@@ -1,0 +1,13 @@
+@db(compactType=true,
+    datastore='cassandra',
+    partitionKeyField='parent',
+    persistenceOrder='start',
+    persistDuplicates=false,
+    shortId=true,
+    shortIdReservationRange=100000)
+entity type WarehouseMovement mixes TimedDataPoint<WarehouseMovementSeries> schema name "WHM" {
+  @ts(treatment='sum')
+  quantity: integer
+
+  movementCode: WarehouseMovementCategory
+}

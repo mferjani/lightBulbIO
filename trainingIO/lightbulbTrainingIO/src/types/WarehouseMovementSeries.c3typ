@@ -1,0 +1,10 @@
+entity type WarehouseMovementSeries mixes TimedDataHeader<WarehouseMovement> schema name 'WHMS' {
+  duplicateHandling: ~ post default 'KEEP'
+  overlapHandling: ~ post default 'SUM'
+  grain: ~ post default 'DAY'
+  warehouse: Warehouse
+
+
+
+  movementCategory: string enum WarehouseMovementCategory
+}

@@ -1,0 +1,6 @@
+{
+  "name": "trainingIO",
+  "version": "1.0.0",
+  "description": "Training Class",
+  "dependencies": { "base" : "7.7.7+21" }
+}

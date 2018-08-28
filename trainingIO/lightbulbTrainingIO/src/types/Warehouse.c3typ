@@ -1,0 +1,10 @@
+entity type Warehouse mixes MetricEvaluatable schema name 'WRHS' {
+  holdingCostPerBulbPerDay:    double
+  failureCostPerBulbPerDay:    double
+  movementSeries:              [WarehouseMovementSeries](warehouse, id)
+  buildings:                   [Building](warehouse, id)
+  orders:                      [Order](warehouse, id)
+
+
+  
+}

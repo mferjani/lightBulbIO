@@ -1,0 +1,6 @@
+entity type Apartment schema name 'APRTMNT' {
+  building: Building
+  fixtures: [Fixture](apartment, id)
+
+
+}

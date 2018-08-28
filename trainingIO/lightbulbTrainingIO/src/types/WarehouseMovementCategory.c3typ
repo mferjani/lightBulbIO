@@ -1,0 +1,4 @@
+enum type WarehouseMovementCategory {
+  ARRIVAL
+  DEPARTURE
+}
