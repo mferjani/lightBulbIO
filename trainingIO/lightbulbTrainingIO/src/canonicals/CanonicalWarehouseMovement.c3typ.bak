@@ -1,5 +1,0 @@
-type CanonicalWarehouseMovement mixes Canonical<CanonicalWarehouseMovement> {
-  warehouse:string
-  holdingCostPerBulbPerDay:double
-  FailureCostPerBulbPerDay:double
-}

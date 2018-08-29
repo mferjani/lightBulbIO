@@ -1,4 +1,4 @@
 entity type Order mixes TimedValueHistory<Warehouse> schema name 'ORDR' {
-  quantity: integer
-  promisedDeliveryDate: date
+  quantity: int
+  promisedDeliveryDate: datetime
 }

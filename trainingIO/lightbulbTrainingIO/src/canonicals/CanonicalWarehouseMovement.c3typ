@@ -1,6 +1,6 @@
 type CanonicalWarehouseMovement mixes Canonical<CanonicalWarehouseMovement> {
-  warehouse:string
-   quantity:int
-   movementId:string
-   timestamp:datetime
+  warehouse:          string
+  quantity:           int
+  movementId:         string
+  timestamp:          datetime
 }

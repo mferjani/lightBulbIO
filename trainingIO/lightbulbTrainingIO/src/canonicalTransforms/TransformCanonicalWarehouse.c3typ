@@ -1,5 +1,5 @@
 type TransformCanonicalWarehouse mixes Warehouse transforms CanonicalWarehouse {
-  id: ~ expression "warehouse"
+  id:                          ~ expression "warehouse"
   holdingCostPerBulbPerDay:    ~ expression "holdingCostPerBulbPerDay"
   failureCostPerBulbPerDay:    ~ expression "failureCostPerBulbPerDay"
 }

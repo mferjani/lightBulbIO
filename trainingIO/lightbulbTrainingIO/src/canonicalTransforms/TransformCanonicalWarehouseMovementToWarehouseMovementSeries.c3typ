@@ -1,5 +1,5 @@
 type TransformCanonicalWarehouseMovementToWarehouseMovementSeries mixes WarehouseMovementSeries transforms CanonicalWarehouseMovement {
-  warehouse: ~ expression {id: "warehouse"}
+  warehouse:          ~ expression "{id: warehouse}"
   id:                 ~ expression "quantity < 0 ? concat(warehouse, '_DEPARTURE') : concat(warehouse, '_ARRIVAL')"
   movementCategory:   ~ expression "quantity < 0 ? 'DEPARTURE' : 'ARRIVAL'"
 }

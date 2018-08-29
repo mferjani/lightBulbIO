@@ -1,4 +1,3 @@
 type TransformCanonicalSmartBulbToFixtureRelationToSmartBulb mixes SmartBulb transforms CanonicalSmartBulbToFixtureRelation {
   id: ~ expression "sn"
-  
 }

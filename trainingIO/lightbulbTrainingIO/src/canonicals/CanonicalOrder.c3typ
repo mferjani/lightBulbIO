@@ -1,8 +1,7 @@
 type CanonicalOrder mixes Canonical<CanonicalOrder> {
-
-	orderId:string
-	warehouse:string
-	orderDate:datetime
-	deliveryDate:datetime
-	quantity:int
+  orderId:             string
+  warehouse:           string
+  orderDate:           datetime
+  deliveryDate:        datetime
+  quantity:            int
 }

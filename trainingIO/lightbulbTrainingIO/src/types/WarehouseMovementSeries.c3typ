@@ -4,6 +4,7 @@ entity type WarehouseMovementSeries mixes TimedDataHeader<WarehouseMovement> sch
   grain: ~ post default 'DAY'
   warehouse: Warehouse
 
+  currentInventory: int stored calc 'sum(data.quantity)'
 
 
   movementCategory: string enum WarehouseMovementCategory

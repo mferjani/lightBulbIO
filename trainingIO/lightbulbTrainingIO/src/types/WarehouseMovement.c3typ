@@ -7,7 +7,7 @@
     shortIdReservationRange=100000)
 entity type WarehouseMovement mixes TimedDataPoint<WarehouseMovementSeries> schema name "WHM" {
   @ts(treatment='sum')
-  quantity: integer
+  quantity: int
 
   movementCode: string
 }

@@ -1,10 +1,14 @@
 entity type Warehouse mixes MetricEvaluatable schema name 'WRHS' {
   holdingCostPerBulbPerDay:    double
   failureCostPerBulbPerDay:    double
-  movementSeries:              [WarehouseMovementSeries](warehouse, id)
-  buildings:                   [Building](warehouse, id)
+  movementSeries:              [WarehouseMovementSeries](warehouse)
+  buildings:                   [Building](warehouse)
   orders:                      [Order](parent)
 
+  pendingArrivals: int calc '0 + sum(orders.(promisedDeliveryDate > dateTime("2018-08-21")).quantity)'
+  lightBulbsInUse: int stored calc 'sum(buildings.lightBulbsInUse)'
 
-  
+  currentInventory: int stored calc 'sum(movementSeries.currentInventory)'
+  holdingCostPerDay: double stored calc 'currentInventory * holdingCostPerBulbPerDay'
+  getAggregatedValues: function(fields: [string]): !map<string, int> js server
 }

@@ -1,5 +1,5 @@
 type CanonicalWarehouse mixes Canonical<CanonicalWarehouse> {
-  warehouse:string
-  holdingCostPerBulbPerDay:double
-  failureCostPerBulbPerDay:double
+  warehouse:          string
+  holdingCostPerBulbPerDay: double
+  failureCostPerBulbPerDay: double
 }
