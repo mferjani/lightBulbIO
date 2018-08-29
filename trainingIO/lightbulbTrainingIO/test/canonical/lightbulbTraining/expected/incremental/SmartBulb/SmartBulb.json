@@ -1,0 +1,34 @@
+[{
+  "type" : "SmartBulb",
+  "id" : "s1",
+  "version" : 1,
+  "meta" : {
+    "tenantTagId" : 3,
+    "tenant" : "lightbulbTraining",
+    "tag" : "prod",
+    "created" : "2018-08-22T01:23:14Z",
+    "createdBy" : "authorizer",
+    "updated" : "2018-08-22T01:23:14Z",
+    "updatedBy" : "authorizer",
+    "timestamp" : "2018-08-22T01:23:16Z",
+    "sourceFile" : "CanonicalSmartBulbToFixtureRelation.csv"
+  },
+  "typeIdent" : "SMRT_BLB"
+},
+{
+  "type" : "SmartBulb",
+  "id" : "s2",
+  "version" : 1,
+  "meta" : {
+    "tenantTagId" : 3,
+    "tenant" : "lightbulbTraining",
+    "tag" : "prod",
+    "created" : "2018-08-22T01:23:14Z",
+    "createdBy" : "authorizer",
+    "updated" : "2018-08-22T01:23:14Z",
+    "updatedBy" : "authorizer",
+    "timestamp" : "2018-08-22T01:23:16Z",
+    "sourceFile" : "CanonicalSmartBulbToFixtureRelation.csv"
+  },
+  "typeIdent" : "SMRT_BLB"
+}]

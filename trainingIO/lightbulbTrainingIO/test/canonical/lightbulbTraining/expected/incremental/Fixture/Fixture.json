@@ -1,0 +1,57 @@
+[{
+  "type" : "Fixture",
+  "apartment" : {
+    "id" : "a1"
+  },
+  "id" : "f1",
+  "version" : 1,
+  "meta" : {
+    "tenantTagId" : 3,
+    "tenant" : "lightbulbTraining",
+    "tag" : "prod",
+    "created" : "2018-08-22T01:22:55Z",
+    "createdBy" : "authorizer",
+    "updated" : "2018-08-22T01:22:55Z",
+    "updatedBy" : "authorizer",
+    "timestamp" : "2018-08-22T01:22:55Z",
+    "sourceFile" : "CanonicalFixture.csv"
+  }
+},
+{
+  "type" : "Fixture",
+  "apartment" : {
+    "id" : "a1"
+  },
+  "id" : "f2",
+  "version" : 1,
+  "meta" : {
+    "tenantTagId" : 3,
+    "tenant" : "lightbulbTraining",
+    "tag" : "prod",
+    "created" : "2018-08-22T01:22:55Z",
+    "createdBy" : "authorizer",
+    "updated" : "2018-08-22T01:22:55Z",
+    "updatedBy" : "authorizer",
+    "timestamp" : "2018-08-22T01:22:55Z",
+    "sourceFile" : "CanonicalFixture.csv"
+  }
+},
+{
+  "type" : "Fixture",
+  "apartment" : {
+    "id" : "a2"
+  },
+  "id" : "f3",
+  "version" : 1,
+  "meta" : {
+    "tenantTagId" : 3,
+    "tenant" : "lightbulbTraining",
+    "tag" : "prod",
+    "created" : "2018-08-22T01:22:55Z",
+    "createdBy" : "authorizer",
+    "updated" : "2018-08-22T01:22:55Z",
+    "updatedBy" : "authorizer",
+    "timestamp" : "2018-08-22T01:22:55Z",
+    "sourceFile" : "CanonicalFixture.csv"
+  }
+}]

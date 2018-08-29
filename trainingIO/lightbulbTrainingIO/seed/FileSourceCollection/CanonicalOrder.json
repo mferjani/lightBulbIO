@@ -1,0 +1,10 @@
+{
+"id": "CanonicalOrder",
+"name": "CanonicalOrder",
+"source": {
+"typeName": "CanonicalOrder"
+},
+"sourceSystem": {
+"id": "Legacy"
+}
+}

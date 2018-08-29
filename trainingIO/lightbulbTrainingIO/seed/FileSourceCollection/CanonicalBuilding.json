@@ -1,0 +1,10 @@
+{
+"id": "CanonicalBuilding",
+"name": "CanonicalBuilding",
+"source": {
+"typeName": "CanonicalBuilding"
+},
+"sourceSystem": {
+"id": "Legacy"
+}
+}

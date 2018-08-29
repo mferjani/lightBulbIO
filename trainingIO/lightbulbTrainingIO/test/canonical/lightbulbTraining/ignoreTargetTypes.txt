@@ -1,0 +1,30 @@
+# Hash at the start of the line comments out the line (no other form of commenting works)
+
+# The following fields are hard coded in the test to be ignored for all target types
+meta.tenantTagId
+meta.tenant
+meta.tag
+meta.updatedBy
+meta.updatedEnd
+meta.created
+meta.createdBy
+meta.timestamp
+meta.sourceFile
+meta.updated
+
+# For cassandra types, "id" field is ignored too unless the partition key itself is "id"
+WarehouseMovement.id
+SmartBulbMeasurement.id
+
+# Types created by canonicals in ignoredCanonicals.txt are automatically ignored. Add additional if you prefer
+# If a field is not specified, the whole type is ignored. If a field is specified, only that field is excluded from verification
+
+# Ignore version
+Apartment.version
+Building.version
+Fixture.version
+SmartBulb.version
+SmartBulbMeasurementSeries.version
+CanonicalSmartBulbToFixtureRelation.version
+Warehouse.version
+WarehouseMovementSeries.version

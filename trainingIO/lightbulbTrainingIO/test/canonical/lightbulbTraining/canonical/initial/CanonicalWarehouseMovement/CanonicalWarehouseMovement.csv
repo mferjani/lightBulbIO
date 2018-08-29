@@ -1,0 +1,3 @@
+warehouse,quantity,movementId,timestamp
+wh1,10,mv1,2017-01-01
+wh1,-10,mv2,2017-01-02

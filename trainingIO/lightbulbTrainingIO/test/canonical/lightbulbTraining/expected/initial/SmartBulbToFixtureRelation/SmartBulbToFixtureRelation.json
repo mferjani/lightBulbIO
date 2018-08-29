@@ -1,0 +1,72 @@
+[{
+  "type" : "SmartBulbToFixtureRelation",
+  "id" : "s1_f1_2017-01-01T00:00:00.000",
+  "version" : 1,
+  "meta" : {
+    "tenantTagId" : 3,
+    "tenant" : "lightbulbTraining",
+    "tag" : "prod",
+    "created" : "2018-08-22T01:23:14Z",
+    "createdBy" : "authorizer",
+    "updated" : "2018-08-22T01:23:14Z",
+    "updatedBy" : "authorizer",
+    "timestamp" : "2018-08-22T01:23:16Z",
+    "sourceFile" : "CanonicalSmartBulbToFixtureRelation.csv"
+  },
+  "from" : {
+    "id" : "s1"
+  },
+  "to" : {
+    "id" : "f1"
+  },
+  "start" : "2017-01-01T00:00:00",
+  "end" : "2017-01-03T00:00:00"
+},
+{
+  "type" : "SmartBulbToFixtureRelation",
+  "id" : "s1_f2_2017-01-03T00:00:00.000",
+  "version" : 1,
+  "meta" : {
+    "tenantTagId" : 3,
+    "tenant" : "lightbulbTraining",
+    "tag" : "prod",
+    "created" : "2018-08-22T01:23:14Z",
+    "createdBy" : "authorizer",
+    "updated" : "2018-08-22T01:23:14Z",
+    "updatedBy" : "authorizer",
+    "timestamp" : "2018-08-22T01:23:16Z",
+    "sourceFile" : "CanonicalSmartBulbToFixtureRelation.csv"
+  },
+  "from" : {
+    "id" : "s1"
+  },
+  "to" : {
+    "id" : "f2"
+  },
+  "start" : "2017-01-03T00:00:00",
+  "end" : "2017-01-05T00:00:00"
+},
+{
+  "type" : "SmartBulbToFixtureRelation",
+  "id" : "s2_f3_2017-01-01T00:00:00.000",
+  "version" : 1,
+  "meta" : {
+    "tenantTagId" : 3,
+    "tenant" : "lightbulbTraining",
+    "tag" : "prod",
+    "created" : "2018-08-22T01:23:14Z",
+    "createdBy" : "authorizer",
+    "updated" : "2018-08-22T01:23:14Z",
+    "updatedBy" : "authorizer",
+    "timestamp" : "2018-08-22T01:23:16Z",
+    "sourceFile" : "CanonicalSmartBulbToFixtureRelation.csv"
+  },
+  "from" : {
+    "id" : "s2"
+  },
+  "to" : {
+    "id" : "f3"
+  },
+  "start" : "2017-01-01T00:00:00",
+  "end" : "2017-01-03T00:00:00"
+}]

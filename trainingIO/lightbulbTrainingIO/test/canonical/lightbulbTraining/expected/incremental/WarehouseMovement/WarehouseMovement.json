@@ -1,0 +1,22 @@
+[{
+  "type" : "WarehouseMovement",
+  "quantity" : -10,
+  "movementCode" : "mv2",
+  "id" : "wh1_DEPARTURE#GQL",
+  "version" : 1,
+  "parent" : {
+    "id" : "wh1_DEPARTURE"
+  },
+  "start" : "2017-01-02T00:00:00"
+},
+{
+  "type" : "WarehouseMovement",
+  "quantity" : 10,
+  "movementCode" : "mv1",
+  "id" : "wh1_ARRIVAL#GQK",
+  "version" : 1,
+  "parent" : {
+    "id" : "wh1_ARRIVAL"
+  },
+  "start" : "2017-01-01T00:00:00"
+}]

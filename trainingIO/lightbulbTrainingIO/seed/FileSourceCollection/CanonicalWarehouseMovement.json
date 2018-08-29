@@ -1,0 +1,10 @@
+{
+"id": "CanonicalWarehouseMovement",
+"name": "CanonicalWarehouseMovement",
+"source": {
+"typeName": "CanonicalWarehouseMovement"
+},
+"sourceSystem": {
+"id": "Legacy"
+}
+}

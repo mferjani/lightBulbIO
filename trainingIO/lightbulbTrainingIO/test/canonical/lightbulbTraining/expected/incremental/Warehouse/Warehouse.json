@@ -1,0 +1,36 @@
+[{
+  "type" : "Warehouse",
+  "holdingCostPerBulbPerDay" : 10.0,
+  "failureCostPerBulbPerDay" : 10.0,
+  "orders" : [ {
+    "quantity" : 3,
+    "promisedDeliveryDate" : "2018-02-01T00:00:00",
+    "id" : "o1",
+    "version" : 1,
+    "parent" : {
+      "id" : "wh1"
+    }
+  }, {
+    "quantity" : 5,
+    "promisedDeliveryDate" : "2018-02-01T00:00:00",
+    "id" : "o2",
+    "version" : 1,
+    "parent" : {
+      "id" : "wh1"
+    }
+  } ],
+  "pendingArrivals" : 0,
+  "id" : "wh1",
+  "version" : 1,
+  "meta" : {
+    "tenantTagId" : 3,
+    "tenant" : "lightbulbTraining",
+    "tag" : "prod",
+    "created" : "2018-08-22T01:23:20Z",
+    "createdBy" : "authorizer",
+    "updated" : "2018-08-22T01:23:20Z",
+    "updatedBy" : "authorizer",
+    "timestamp" : "2018-08-22T01:23:22Z",
+    "sourceFile" : "CanonicalWarehouse.csv"
+  }
+}]

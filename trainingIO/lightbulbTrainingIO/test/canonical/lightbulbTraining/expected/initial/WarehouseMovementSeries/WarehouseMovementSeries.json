@@ -1,0 +1,46 @@
+[{
+  "type" : "WarehouseMovementSeries",
+  "warehouse" : {
+    "id" : "wh1"
+  },
+  "movementCategory" : "ARRIVAL",
+  "id" : "wh1_ARRIVAL",
+  "version" : 1,
+  "meta" : {
+    "tenantTagId" : 3,
+    "tenant" : "lightbulbTraining",
+    "tag" : "prod",
+    "created" : "2017-01-01T00:00:00",
+    "createdBy" : "authorizer",
+    "updated" : "2017-01-01T00:00:00",
+    "updatedBy" : "authorizer",
+    "timestamp" : "2018-08-22T01:23:28Z",
+    "sourceFile" : "CanonicalWarehouseMovement.csv"
+  },
+  "grain" : "DAY",
+  "duplicateHandling" : "KEEP",
+  "overlapHandling" : "SUM"
+},
+{
+  "type" : "WarehouseMovementSeries",
+  "warehouse" : {
+    "id" : "wh1"
+  },
+  "movementCategory" : "DEPARTURE",
+  "id" : "wh1_DEPARTURE",
+  "version" : 1,
+  "meta" : {
+    "tenantTagId" : 3,
+    "tenant" : "lightbulbTraining",
+    "tag" : "prod",
+    "created" : "2017-01-02T00:00:00",
+    "createdBy" : "authorizer",
+    "updated" : "2017-01-02T00:00:00",
+    "updatedBy" : "authorizer",
+    "timestamp" : "2018-08-22T01:23:28Z",
+    "sourceFile" : "CanonicalWarehouseMovement.csv"
+  },
+  "grain" : "DAY",
+  "duplicateHandling" : "KEEP",
+  "overlapHandling" : "SUM"
+}]

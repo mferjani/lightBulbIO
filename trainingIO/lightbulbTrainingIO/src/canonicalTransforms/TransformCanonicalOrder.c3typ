@@ -1,4 +1,5 @@
 type TransformCanonicalOrder mixes Order transforms CanonicalOrder {
+  parent : ~ expression  {id: "warehouse"} 
   id: ~ expression "orderId"
   quantity: ~ expression  "quantity"
   promisedDeliveryDate: ~ expression "deliveryDate"

@@ -1,0 +1,38 @@
+[{
+  "type" : "Building",
+  "warehouse" : {
+    "id" : "wh1"
+  },
+  "id" : "b1",
+  "version" : 1,
+  "meta" : {
+    "tenantTagId" : 3,
+    "tenant" : "lightbulbTraining",
+    "tag" : "prod",
+    "created" : "2018-08-22T01:22:49Z",
+    "createdBy" : "authorizer",
+    "updated" : "2018-08-22T01:22:49Z",
+    "updatedBy" : "authorizer",
+    "timestamp" : "2018-08-22T01:22:51Z",
+    "sourceFile" : "CanonicalBuilding.csv"
+  }
+},
+{
+  "type" : "Building",
+  "warehouse" : {
+    "id" : "wh1"
+  },
+  "id" : "b2",
+  "version" : 1,
+  "meta" : {
+    "tenantTagId" : 3,
+    "tenant" : "lightbulbTraining",
+    "tag" : "prod",
+    "created" : "2018-08-22T01:22:49Z",
+    "createdBy" : "authorizer",
+    "updated" : "2018-08-22T01:22:49Z",
+    "updatedBy" : "authorizer",
+    "timestamp" : "2018-08-22T01:22:51Z",
+    "sourceFile" : "CanonicalBuilding.csv"
+  }
+}]

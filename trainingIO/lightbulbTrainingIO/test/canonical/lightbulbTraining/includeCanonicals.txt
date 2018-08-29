@@ -1,0 +1,7 @@
+CanonicalBuilding
+CanonicalFixture
+CanonicalOrder
+CanonicalSmartBulbMeasurement
+CanonicalSmartBulbToFixtureRelation
+CanonicalWarehouse
+CanonicalWarehouseMovement

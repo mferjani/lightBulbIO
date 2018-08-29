@@ -1,0 +1,33 @@
+[{
+  "type" : "SmartBulbMeasurement",
+  "lumens" : 25.0,
+  "id" : "s2#IP2Y",
+  "version" : 1,
+  "parent" : {
+    "id" : "s2"
+  },
+  "start" : "2017-01-03T00:00:00",
+  "end" : "2017-01-04T00:00:00"
+},
+{
+  "type" : "SmartBulbMeasurement",
+  "lumens" : 20.0,
+  "id" : "s1#IP2W",
+  "version" : 1,
+  "parent" : {
+    "id" : "s1"
+  },
+  "start" : "2017-01-01T00:00:00",
+  "end" : "2017-01-03T00:00:00"
+},
+{
+  "type" : "SmartBulbMeasurement",
+  "lumens" : 15.0,
+  "id" : "s1#IP2X",
+  "version" : 1,
+  "parent" : {
+    "id" : "s1"
+  },
+  "start" : "2017-01-03T00:00:00",
+  "end" : "2017-01-04T00:00:00"
+}]

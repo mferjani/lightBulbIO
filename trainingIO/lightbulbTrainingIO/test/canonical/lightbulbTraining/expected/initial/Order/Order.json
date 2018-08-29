@@ -1,0 +1,44 @@
+[{
+  "type" : "Order",
+  "quantity" : 3,
+  "promisedDeliveryDate" : "2018-02-01T00:00:00",
+  "id" : "o1",
+  "version" : 1,
+  "meta" : {
+    "tenantTagId" : 3,
+    "tenant" : "lightbulbTraining",
+    "tag" : "prod",
+    "created" : "2018-08-22T01:23:02Z",
+    "createdBy" : "authorizer",
+    "updated" : "2018-08-22T01:23:02Z",
+    "updatedBy" : "authorizer",
+    "timestamp" : "2018-08-22T01:23:03Z",
+    "sourceFile" : "CanonicalOrder.csv"
+  },
+  "parent" : {
+    "id" : "wh1"
+  },
+  "timestamp" : "2018-01-01T00:00:00"
+},
+{
+  "type" : "Order",
+  "quantity" : 5,
+  "promisedDeliveryDate" : "2018-02-01T00:00:00",
+  "id" : "o2",
+  "version" : 1,
+  "meta" : {
+    "tenantTagId" : 3,
+    "tenant" : "lightbulbTraining",
+    "tag" : "prod",
+    "created" : "2018-08-22T01:23:02Z",
+    "createdBy" : "authorizer",
+    "updated" : "2018-08-22T01:23:02Z",
+    "updatedBy" : "authorizer",
+    "timestamp" : "2018-08-22T01:23:03Z",
+    "sourceFile" : "CanonicalOrder.csv"
+  },
+  "parent" : {
+    "id" : "wh1"
+  },
+  "timestamp" : "2018-01-01T00:00:00"
+}]

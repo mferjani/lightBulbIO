@@ -1,6 +1,5 @@
 type CanonicalWarehouse mixes Canonical<CanonicalWarehouse> {
   warehouse:string
-  quantity:int
-  movementId:string
-  timestamp:datetime
+  holdingCostPerBulbPerDay:double
+  failureCostPerBulbPerDay:double
 }
