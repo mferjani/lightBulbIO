@@ -1,5 +1,5 @@
 type TransformCanonicalSmartBulbMeasurementToSmartBulbMeasurement mixes SmartBulbMeasurement transforms CanonicalSmartBulbMeasurement {
-  parent: ~ expression {id: "concat('SBMS_serialNo_',sn")}
+  parent: ~ expression {id: "concat('SBMS_serialNo_',sn)"}
   
   lumens: ~ expression "lumens"
   start:  ~ expression "start"
