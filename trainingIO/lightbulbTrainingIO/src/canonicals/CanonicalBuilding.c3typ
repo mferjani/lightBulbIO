@@ -1,0 +1,6 @@
+type CanonicalBuilding mixes Canonical<CanonicalBuilding> {
+
+	warehouse: string
+	building: string
+
+}

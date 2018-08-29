@@ -1,0 +1,6 @@
+type CanonicalSmartBulbMeasurement mixes Canonical<CanonicalSmartBulbMeasurement> {
+ start:datetime
+ end:datetime
+ sn:string
+ lumens:double
+}

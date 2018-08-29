@@ -9,5 +9,5 @@ entity type WarehouseMovement mixes TimedDataPoint<WarehouseMovementSeries> sche
   @ts(treatment='sum')
   quantity: integer
 
-  movementCode: WarehouseMovementCategory
+  movementCode: string
 }

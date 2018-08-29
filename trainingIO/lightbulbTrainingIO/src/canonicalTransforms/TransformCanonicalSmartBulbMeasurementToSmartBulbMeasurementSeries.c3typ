@@ -1,0 +1,6 @@
+type TransformCanonicalSmartBulbMeasurementToSmartBulbMeasurementSeries mixes SmartBulbMeasurementSeries transforms CanonicalSmartBulbMeasurement {
+   id: ~ expression "concat('SBMS_serialNo_',sn)"
+   smartBulb: ~ expression {id:"sn"}
+   //in the asisnement we have interval and tratment also defined in transformation
+   //check back
+}

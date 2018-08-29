@@ -1,0 +1,6 @@
+type CanonicalSmartBulbToFixtureRelation mixes Canonical<CanonicalSmartBulbToFixtureRelation> {
+ sn:string
+ fixture:string
+ start:datetime
+ end:datetime
+}

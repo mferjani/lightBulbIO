@@ -1,0 +1,3 @@
+type TransformCanonicalWarehouse mixes Warehouse transforms CanonicalWarehouse {
+  id: ~ expression "warehouse"
+}

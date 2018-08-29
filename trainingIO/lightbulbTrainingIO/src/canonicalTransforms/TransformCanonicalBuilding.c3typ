@@ -1,0 +1,4 @@
+type TransformCanonicalBuilding mixes Building transforms CanonicalBuilding {
+  id: ~ expression "building"
+  warehouse: ~ expression {id: "warehouse"}
+}

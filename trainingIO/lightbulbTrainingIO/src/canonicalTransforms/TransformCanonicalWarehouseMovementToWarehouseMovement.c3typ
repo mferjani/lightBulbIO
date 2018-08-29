@@ -1,0 +1,6 @@
+type TransformCanonicalWarehouseMovementToWarehouseMovement mixes WarehouseMovement transforms CanonicalWarehouseMovement {
+   parent:           ~ expression "{id: quantity < 0 ? concat(warehouse, '_DEPARTURE') : concat(warehouse, '_ARRIVAL')}"
+   quantity: ~ expression "quantity"
+   start: ~ expression "timestamp"
+
+}

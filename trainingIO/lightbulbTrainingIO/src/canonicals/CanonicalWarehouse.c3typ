@@ -1,0 +1,6 @@
+type CanonicalWarehouse mixes Canonical<CanonicalWarehouse> {
+  warehouse:string
+  quantity:int
+  movementId:
+  timestamp:datetime
+}
