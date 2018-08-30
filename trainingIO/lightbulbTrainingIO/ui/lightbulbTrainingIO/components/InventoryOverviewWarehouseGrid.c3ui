@@ -19,6 +19,11 @@ ui module lightbulbTrainingIO {
                 "label": "Warehouse"
             },
             {
+                "id": "lightBulbsInUse",
+                "field": "lightBulbsInUse",
+                "label": "Total LightBulbs in use"
+            },
+            {
                 "id": "currentInventory",
                 "field": "currentInventory",
                 "label": "Inventory Level"

@@ -4,7 +4,7 @@ ui module lightbulbTrainingIO {
         "c3function": "fetch",
         "c3arguments": {
             "spec": {
-                "include": "lightBulbsInUse, currentInventory, holdingCostPerDay",
+                "include": "lightBulbsInUse, pendingArrivals, currentInventory, holdingCostPerDay",
                 "limit": -1
             }
         },

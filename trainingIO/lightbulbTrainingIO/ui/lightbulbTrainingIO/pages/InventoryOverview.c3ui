@@ -120,7 +120,7 @@ ui module lightbulbTrainingIO {
             {
                 "id": "InventoryStatus",
                 "component": "chart.MetricsChart",
-                "renderTo": "#RightColRow3",
+                "renderTo": "#RightColRow4",
                 "icon": "bar-chart",
                 "name": "Chart",
                 "box": true,
