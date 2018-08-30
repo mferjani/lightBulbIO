@@ -1,0 +1,17 @@
+ui module lightbulbTrainingIO {
+    dataSource Warehouses {
+        "collection": true,
+        "c3function": "fetch",
+        "c3arguments": {
+            "spec": {
+                "include": "lightBulbsInUse, currentInventory, holdingCostPerDay",
+                "limit": -1
+            }
+        },
+        "c3type": "Warehouse",
+        "name": "Warehouses",
+        "responseSelector": "objs",
+        "record": false,
+        "id": "lightbulbTrainingIO.Warehouses"
+    }
+}

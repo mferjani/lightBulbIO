@@ -1,27 +1,15 @@
 function getAggregatedValues(fields) {
+  var res = c3Make('map<string, int>');
 
-	var myMap = [];
-	
-	/*
-	fileds.each(function(field)){
-		myMap.set(field,0);
-	}
-	*/
-	
-	myMap['pendingArrivals'] = 0;
-	myMap['lightBulbsInUse'] = 0;
-	myMap['currentInventory'] = 0;
-	myMap['holdingCostPerDay'] = 0;
-	
-	var warehouses = Warehouse.fetch({include:'pendingArrivals, lightBulbsInUse, currentInventory, holdingCostPerDay', limit:-1}).objs;
-	
-    for (var k = 0; k < warehouses.length; k++) {
-    	myMap['pendingArrivals'] = myMap['pendingArrivals'] + warehouses[k]['pendingArrivals'];
-    	myMap['lightBulbsInUse'] = myMap['lightBulbsInUse'] + warehouses[k]['lightBulbsInUse'];
-    	myMap['currentInventory'] = myMap['currentInventory'] + warehouses[k]['currentInventory'];
-    	myMap['holdingCostPerDay'] = myMap['holdingCostPerDay'] + warehouses[k]['holdingCostPerDay'];
-    }
-    
-    return myMap;
-	  
+  fields.each(function (field) {
+    res.set(field, 0);
+  });
+
+  Warehouse.fetchObjStream({include: fields.join(',')}).forEach(function (obj) {
+    fields.each(function (field) {
+      res.set(field, res.get(field) + (obj[field] || 0));
+    });
+  });
+
+  return res;
 }

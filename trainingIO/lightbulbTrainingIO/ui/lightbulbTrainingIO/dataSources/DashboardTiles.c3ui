@@ -1,0 +1,14 @@
+ui module lightbulbTrainingIO {
+    dataSource DashboardTiles {
+        "id": "lightbulbTrainingIO.DashboardTiles",
+        "collection": false,
+        "record": true,
+        "c3function": "getAggregatedValues",
+        "c3type": "Warehouse",
+        "c3arguments": {
+          "fields": ["lightBulbsInUse", "currentInventory", "holdingCostPerDay"]
+        },
+        "responseSelector": null,
+        "responseTransform": null
+    }
+}

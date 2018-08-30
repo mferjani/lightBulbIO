@@ -1,0 +1,40 @@
+ui module lightbulbTrainingIO {
+    component InventoryOverviewWarehouseGrid {
+        "component": "KendoGrid",
+        "icon": "align-justify",
+        "name": "InventoryOverviewWarehouseGrid",
+        "box": true,
+        "paginate": false,
+        "title": "Warehouse Overview",
+        "filterable": false,
+        "titleUrl": null,
+        "aggregate": null,
+        "small": false,
+        "checkBoxes": false,
+        "sortable": true,
+        "columns": [
+            {
+                "id": "id",
+                "field": "id",
+                "label": "Warehouse"
+            },
+            {
+                "id": "currentInventory",
+                "field": "currentInventory",
+                "label": "Inventory Level"
+            },
+            {
+                "id": "holdingCostPerDay",
+                "field": "holdingCostPerDay",
+                "label": "Daily Inventory Costs"
+            },
+            {
+                "id": "pendingArrivals",
+                "field": "pendingArrivals",
+                "label": "Pending Arrivals"
+            }
+        ],
+        "id": "InventoryOverviewWarehouseGrid"
+    }
+
+}

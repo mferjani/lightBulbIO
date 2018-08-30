@@ -1,6 +1,8 @@
 {
   "id": "uiconfig",
-  "applications": [],
+  "applications": [
+  		{"id": "lightbulbTrainingIO"}
+    ],
   "environments": [
     {
       "id": "development",

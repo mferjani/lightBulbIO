@@ -1,0 +1,15 @@
+ui module lightbulbTrainingIO {
+ application lightbulbTrainingIO {
+	 "name": "lightbulbTrainingIO",
+	 "humanName": "Smart Bulb Inventory Optimization",
+	 "showDesignerComponents": true,
+	 "url": "lightbulbTrainingIO",
+	 "id": "lightbulbTrainingIO",
+	 "theme": "base",
+	 "package": "lightbulbTrainingIO",
+	 "defaultPage": "InventoryOverview",
+	 "thumbnail": "template-thumbs/120/ui.Dashboard2x2.gif",
+	 "noneditable": false,
+	 "moduleName": "lightbulbTrainingIO"
+ }
+}
