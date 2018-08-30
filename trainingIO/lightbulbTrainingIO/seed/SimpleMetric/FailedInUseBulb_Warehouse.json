@@ -1,0 +1,7 @@
+{
+  "id": "FailedInUseBulb_Warehouse",
+  "name": "FailedInUseBulb",
+  "srcType": "Warehouse",
+  "expression": "sum(avg(normalized.data.lumens) == 0)",
+  "path": "buildings.apartments.fixtures.bulbHistory.from.bulbMeasurements"
+}

@@ -1,0 +1,5 @@
+{
+  "id": "FailureCost",
+  "name": "FailureCost",
+  "expression": "sum(eval('DAY',FailedInUseBulb * FailureUnitCost))"
+}

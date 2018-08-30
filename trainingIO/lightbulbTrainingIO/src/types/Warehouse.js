@@ -2,6 +2,12 @@ function getAggregatedValues(fields) {
 
 	var myMap = [];
 	
+	/*
+	fileds.each(function(field)){
+		myMap.set(field,0);
+	}
+	*/
+	
 	myMap['pendingArrivals'] = 0;
 	myMap['lightBulbsInUse'] = 0;
 	myMap['currentInventory'] = 0;

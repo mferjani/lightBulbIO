@@ -1,0 +1,7 @@
+{
+  "id": "FirstWarehouseMovementDate_Warehouse",
+  "name": "FirstWarehouseMovementDate",
+  "srcType": "Warehouse",
+  "expression": "identity(min(earliest))",
+  "path": "movementSeries"
+}

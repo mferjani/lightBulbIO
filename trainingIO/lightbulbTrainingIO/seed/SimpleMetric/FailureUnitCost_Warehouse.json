@@ -1,0 +1,6 @@
+{
+  "id": "FailureUnitCost_Warehouse",
+  "name": "FailureUnitCost",
+  "srcType": "Warehouse",
+  "expression": "sum(eval('DAY',identity(failureCostPerBulbPerDay)))"
+}

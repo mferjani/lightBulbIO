@@ -1,0 +1,5 @@
+{
+  "id": "Inventory",
+  "name": "Inventory",
+  "expression": "sum(eval(interval(), rolling('SUM', InventoryArrival - InventoryDeparture), FirstWarehouseMovementDate))"  
+}

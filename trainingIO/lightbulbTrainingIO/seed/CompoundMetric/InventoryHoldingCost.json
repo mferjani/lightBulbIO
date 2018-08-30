@@ -1,0 +1,5 @@
+{
+  "id": "InventoryHoldingCost",
+  "name": "InvenroryHoldingCost",
+  "expression": "sum(eval('DAY', Inventory * InventoryUnitHoldingCost))"
+}

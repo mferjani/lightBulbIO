@@ -1,0 +1,7 @@
+{
+  "id": "InventoryDeparture_Warehouse",
+  "name": "InventoryDeparture",
+  "srcType": "Warehouse",
+  "expression": "-1 * fillMissing(sum(sum(normalized.data.quantity)), 0)",
+  "path": "movementSeries.(movementCategory=='DEPARTURE')"
+}

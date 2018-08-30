@@ -1,0 +1,6 @@
+{
+  "id": "InventoryUnitHoldingCost_Warehouse",
+  "name": "InventoryUnitHoldingCost",
+  "srcType": "Warehouse",
+  "expression": "sum(eval('DAY',identity(holdingCostPerBulbPerDay)))"
+}
